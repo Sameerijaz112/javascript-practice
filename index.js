@@ -1,3 +1,5 @@
-function myfunction (params) {
-    document.getElementById('demo').innerHTML = "Paragraph changed";
+/* function myfunction (params) {
+    document.getElementById('demo').innerHTML = 5+6 ;
 }
+ */
+// document.write(10+10);
