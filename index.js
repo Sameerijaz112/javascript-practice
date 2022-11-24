@@ -25,12 +25,21 @@ function changeowner(params) {
 
 
 
-
+/* 
 function Practice() {
     document.getElementById('demo').innerHTML="Chalgeyaj"
+} */
+/* function myfunction(p1,p2){
+   return p1 * p2
 }
+document.getElementById('demo').innerHTML = myfunction(4,3); */
+const Fruits = ['apple','banana','dates'];
+document.getElementById('demo').innerHTML = Fruits;
 
-
+function loveyou() {
+    Fruits.push('lemon');
+    document.getElementById('demo').innerHTML =Fruits;
+}
 
 
 
