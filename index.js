@@ -33,14 +33,20 @@ function Practice() {
    return p1 * p2
 }
 document.getElementById('demo').innerHTML = myfunction(4,3); */
-const Fruits = ['apple','banana','dates'];
+/* const Fruits = ['apple','banana','dates'];
 document.getElementById('demo').innerHTML = Fruits;
 
 function loveyou() {
     Fruits.push('lemon');
     document.getElementById('demo').innerHTML =Fruits;
+} */
+const Fruits = ['Apple','Mango','Banana'];
+document.getElementById('demo').innerHTML = Fruits;
+Fruits.shift();
+function Newfunction() {
+    document.getElementById('demo').innerHTML = Fruits;
+    
 }
-
 
 
 
