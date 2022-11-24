@@ -42,8 +42,9 @@ function loveyou() {
 } */
 const Fruits = ['Apple','Mango','Banana'];
 document.getElementById('demo').innerHTML = Fruits;
-Fruits.shift();
+
 function Newfunction() {
+    delete Fruits[1];
     document.getElementById('demo').innerHTML = Fruits;
     
 }
