@@ -16,3 +16,33 @@ A.owner = 'john';
 function changeowner(params) {
     document.getElementById("demo").innerHTML = "Car owner is " + A.owner; 
 } */
+
+
+
+
+
+
+
+
+
+
+function Practice() {
+    document.getElementById('demo').innerHTML="Chalgeyaj"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
