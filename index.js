@@ -48,17 +48,26 @@ function Newfunction() {
     document.getElementById('demo').innerHTML = Fruits;
     
 } */
-const hour = new Date().getHours();
+/* const hour = new Date().getHours();
 let greeting;
-if ( hour > 24) {
-    greeting = 'Good Morning';
-} else {
-    greeting = 'Good evening';
+function greeting (){
 
+    if ( hour > 24) {
+        greeting = 'Good Morning';
+    } else {
+        greeting = 'Good evening';
+    
+    }
 }
 document.getElementById('demo').innerHTML = greeting;
+ */
 
-
+    const Fruits =  new Map
+(["apple" ,500],
+["mango" , 300],
+["banana" , 400]
+);
+document.getElementById('demo').innerHTML = Fruits.get("apple");
 
 
 
