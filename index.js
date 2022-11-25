@@ -40,16 +40,23 @@ function loveyou() {
     Fruits.push('lemon');
     document.getElementById('demo').innerHTML =Fruits;
 } */
-const Fruits = ['Apple','Mango','Banana'];
+/* const Fruits = ['Apple','Mango','Banana'];
 document.getElementById('demo').innerHTML = Fruits;
 
 function Newfunction() {
     delete Fruits[1];
     document.getElementById('demo').innerHTML = Fruits;
     
+} */
+const hour = new Date().getHours();
+let greeting;
+if ( hour > 24) {
+    greeting = 'Good Morning';
+} else {
+    greeting = 'Good evening';
+
 }
-
-
+document.getElementById('demo').innerHTML = greeting;
 
 
 
